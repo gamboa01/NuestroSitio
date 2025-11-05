@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Nuestra Historia</title>
+  <meta name="description" content="Un lugar para guardar nuestras dedicatorias, recuerdos y momentos." />
+  <link rel="icon" href="img/favicon.png" sizes="32x32" />
+
+  <!-- Tipografías (activadas para un look más editorial) -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <!-- Header vítreo con acento dinámico -->
+  <header class="site-header" id="header" data-elevated>
+    <div class="container header-grid">
+      <a href="#inicio" class="brand" aria-label="Ir al inicio">
+        <span class="brand-mark">Nuestra Historia</span>
+        <span class="brand-tag">Dedicatorias y recuerdos</span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menú">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+
+      <nav id="nav" class="nav" aria-label="Navegación principal">
+        <ul>
+          <li><a href="#inicio" data-underline>Inicio</a></li>
+          <li><a href="#dedicatorias" data-underline>Dedicatorias</a></li>
+          <li><a href="#galeria" data-underline>Galería</a></li>
+          <li><a href="#linea-tiempo" data-underline>Línea de tiempo</a></li>
+          <li><a href="#carta" data-underline>Carta</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- Sutil barra de progreso de scroll -->
+    <div class="scroll-progress" aria-hidden="true"><span></span></div>
+  </header>
+
+  <main id="main">
+    <!-- INICIO -->
+    <section id="inicio" class="hero section">
+      <!-- Decoración de fondo -->
+      <div class="hero-bg" aria-hidden="true">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+        <div class="grid-overlay"></div>
+      </div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <h1 class="display gradient-text">Este sitio es para ti</h1>
+          <p class="lead">Encontrarás varios recuerdos y páginas que te hecho, para que las tengas presentes en un mismo lugar.</p>
+          <div class="hero-cta">
+            <a href="#dedicatorias" class="btn btn-primary">Ver dedicatorias</a>
+            <a href="#galeria" class="btn btn-ghost">Ver recuerdos</a>
+          </div>
+        </div>
+        <div class="hero-media">
+          <figure class="hero-card tilt">
+            <img src="img/Portada.jpg" alt="Foto significativa de la pareja" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEDICATORIAS -->
+    <section id="dedicatorias" class="section section-alt">
+      <div class="container section-header">
+        <h2 class="gradient-underline">Dedicatorias</h2>
+        <p class="section-subtitle">Todas las páginas que he hecho para ti:</p>
+      </div>
+
+      <div class="container">
+        <div class="filters" role="group" aria-label="Filtros de dedicatorias">
+          <button class="filter-btn is-active" data-filter="all">Todo</button>
+          <button class="filter-btn" data-filter="web">Páginas web</button>
+          <button class="filter-btn" data-filter="video">Videos</button>
+        </div>
+
+        <div id="dedicatoriasGrid" class="cards-grid"></div>
+      </div>
+    </section>
+
+    <!-- DETALLE (router hash) -->
+    <section id="detalle" class="section" hidden>
+      <div class="container section-header">
+        <h2 id="detalleTitulo">Detalle</h2>
+        <p id="detalleFecha" class="section-subtitle"></p>
+      </div>
+      <div class="container">
+        <article class="card">
+          <div id="detalleContenido" class="detalle-contenido"></div>
+          <div class="detail-actions">
+            <a id="detalleLink" class="btn btn-secondary" href="#" target="_blank" rel="noopener">Abrir original</a>
+            <button id="volverBtn" class="btn btn-ghost">Volver a dedicatorias</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="section">
+      <div class="container section-header">
+        <h2 class="gradient-underline">Galería</h2>
+        <p class="section-subtitle">Nuestros mejores momentos</p>
+      </div>
+
+      <div class="container">
+        <div class="gallery" id="gallery">
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LÍNEA DE TIEMPO -->
+    <section id="linea-tiempo" class="section section-alt">
+      <div class="container section-header">
+        <h2 class="gradient-underline">Línea de tiempo</h2>
+        <p class="section-subtitle">Fechas que quiero recordar contigo.</p>
+      </div>
+
+      <div class="container">
+        <ol id="timeline" class="timeline"></ol>
+      </div>
+    </section>
+
+    <!-- CARTA -->
+    <section id="carta" class="section">
+      <div class="container section-header">
+        <h2 class="gradient-underline">Carta</h2>
+        <p class="section-subtitle">Un breve mensaje para ti.</p>
+      </div>
+      <div class="container card prose">
+<article class="letter-styled">
+  <p>No soy tan bueno escribiendo cartas, por lo que puede ser un poco corta, pero quisiera expresarte mi sentimiento, más que todo <strong>agradecerte en gran manera</strong> por cómo eres conmigo. Gracias por tu <em>paciencia</em> y <em>gran amor</em>; te agradezco profundamente por ser mi compañera de experiencias.</p>
+
+  <p>Sin duda hemos vivido tantas cosas, me gusta pasar el tiempo a tu lado y creo realmente que eres la persona con la que <strong>quiero pasar toda mi vida</strong>. Amo cuando estamos sonriendo, siendo nosotros mismos, pero también amo cuando no nos entendemos, porque incluso en esos momentos seguimos juntos.</p>
+
+  <p>Quiero seguir siendo parte de tu vida y estar a tu lado en cada momento. Recuerda que <strong>te amo en gran manera</strong> y estaré para ti en cualquier momento, sin importar la hora o el lugar.</p>
+
+  <p class="love-note">TE AMOOOOOO 💖</p>
+</article>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL -->
+  <dialog id="dedicatoriaModal" class="modal">
+    <article class="modal-card">
+      <header class="modal-header">
+        <h3 id="modalTitle">Dedicatoria</h3>
+        <button id="modalClose" class="modal-close" aria-label="Cerrar">×</button>
+      </header>
+      <div id="modalBody" class="modal-body"></div>
+      <footer class="modal-footer">
+        <button id="modalOpenLink" class="btn btn-primary">Abrir original</button>
+      </footer>
+    </article>
+  </dialog>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>© <span id="year"></span> Guillermo Gamboa</p>
+      <a href="#inicio" class="to-top" aria-label="Volver arriba">↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+  <script>
+    // Barra de progreso de scroll
+    const bar = document.querySelector('.scroll-progress span');
+    const onScroll = () => {
+      const h = document.documentElement;
+      const p = (h.scrollTop) / (h.scrollHeight - h.clientHeight);
+      bar.style.transform = `scaleX(${p})`;
+    };
+    document.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+  </script>
+</body>
+</html>

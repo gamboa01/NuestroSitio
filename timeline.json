@@ -1,0 +1,79 @@
+{
+  "eventos": [
+        {
+      "fecha": "09/12/2023",
+      "titulo": "Nuestro comienzo",
+      "descripcion": "Acá me diste el SÍ parcial, antes de decirme oficialmente."
+    },
+    {
+      "fecha": "11/12/2023",
+      "titulo": "Nuestro comienzo definitivo",
+      "descripcion": "Acá me diste el SÍ definitivo jajaja"
+    },
+    {
+      "fecha": "10/06/2023",
+      "titulo": "Nuestro viaje a la playa",
+      "descripcion": "Un fin de semana inolvidable lleno de risas, sol y fotografías hermosas."
+    },
+    {
+      "fecha": "29/03/2024",
+      "titulo": "Primer viaje a la playa juntos",
+      "descripcion": "Nuestra primera aventura juntos en la playa."
+    },
+    {
+      "fecha": "16/04/2024",
+      "titulo": "Combinamos calcetines",
+      "descripcion": "Usamos calcetines a juego por primera vez para ir al gym"
+    },
+        {
+      "fecha": "19/04/2024",
+      "titulo": "Viaje a pana",
+      "descripcion": "Fuimos a Pana en moto y la pasamos excelente."
+    },
+        {
+      "fecha": "01/07/2024",
+      "titulo": "Viaje a Xela",
+      "descripcion": "Este fue nuestro primer viaje a Xela juntos."
+    },
+        {
+      "fecha": "26/08/2024",
+      "titulo": "Mi cumpleaños contigo",
+      "descripcion": "Por primera vez pasamos mi cumpleaños juntos."
+    },
+        {
+      "fecha": "11/12/2024",
+      "titulo": "Primer Año Juntos",
+      "descripcion": "Por primera vez celebramos nuestro aniversario juntos en el restaurante al que fuimos primero."
+    },
+        {
+      "fecha": "24/12/2024",
+      "titulo": "Primera Navidad Juntos",
+      "descripcion": "Nuestra primera Navidad juntos, combinando suétes, jugando y disfrutando."
+    },
+            {
+      "fecha": "25/12/2024",
+      "titulo": "Casita de Jengibre",
+      "descripcion": "Hicimos nuestra casita de jengibre juntos."
+    },
+                {
+      "fecha": "22/03/2025",
+      "titulo": "Baby Shower",
+      "descripcion": "Por primera vez te llevé a un lugar mientras yo manejaba carro jaja"
+    },
+                {
+      "fecha": "27/04/2025",
+      "titulo": "Fiesta juntos",
+      "descripcion": "Fuimos a la fiesta de mi sobrino combinando la camisola del Barcelona."
+    },
+                    {
+      "fecha": "26/06/2025",
+      "titulo": "IRTRA juntos",
+      "descripcion": "Por primera vez fuimos juntos al IRTRA, aunque a escondidas jajaja"
+    },
+                    {
+      "fecha": "21/07/2025",
+      "titulo": "Match Outfit",
+      "descripcion": "Combinamos outfit para ir a la igle."
+    }
+  ]
+}

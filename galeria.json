@@ -1,0 +1,104 @@
+{
+  "imagenes": [
+    {
+      "src": "img/recuerdo01.jpg",
+      "descripcion": "El inicio de todo"
+    },
+    {
+      "src": "img/recuerdo02.jpg",
+      "descripcion": "Nuestro primer desayuno juntos"
+    },
+    {
+      "src": "img/recuerdo03.jpg",
+      "descripcion": "Día en la playa"
+    },
+    {
+      "src": "img/recuerdo04.jpg",
+      "descripcion": "Combinación de calcetines"
+    },
+    {
+      "src": "img/recuerdo05.jpg",
+      "descripcion": "Wafles y Café"
+    },
+    {
+      "src": "img/recuerdo06.jpg",
+      "descripcion": "Viaje a Panajachel 1"
+    },
+    {
+      "src": "img/recuerdo07.jpg",
+      "descripcion": "Viaje a Xela 1"
+    },
+    {
+      "src": "img/recuerdo08.jpg",
+      "descripcion": "Cumpleaños madre 1"
+    },
+    {
+      "src": "img/recuerdo09.jpg",
+      "descripcion": "Cumpleaños mío 1"
+    },
+    {
+      "src": "img/recuerdo10.jpg",
+      "descripcion": "Viaje a Panajachel 2"
+    },
+    {
+      "src": "img/recuerdo11.jpg",
+      "descripcion": "Cuidandonme cuando me enfermé"
+    },
+    {
+      "src": "img/recuerdo12.jpg",
+      "descripcion": "Primer Aniversario"
+    },
+    {
+      "src": "img/recuerdo13.jpg",
+      "descripcion": "Primera Navidad Juntos"
+    },
+    {
+      "src": "img/recuerdo14.jpg",
+      "descripcion": "Armando casita de jengibre"
+    },
+    {
+      "src": "img/recuerdo15.jpg",
+      "descripcion": "Primera invitación en pareja"
+    },
+    {
+      "src": "img/recuerdo16.jpg",
+      "descripcion": "¿Dónde estamos?"
+    },
+    {
+      "src": "img/recuerdo17.jpg",
+      "descripcion": "Viaje a Xela 2"
+    },
+    {
+      "src": "img/recuerdo18.jpg",
+      "descripcion": "Combinación de outfit"
+    },
+    {
+      "src": "img/recuerdo19.jpg",
+      "descripcion": "Cumpleaños madre 2"
+    },
+    {
+      "src": "img/recuerdo20.jpg",
+      "descripcion": "Cumpleaños mío 2"
+    },
+    {
+      "src": "img/recuerdo21.jpg",
+      "descripcion": "Película juntos"
+    },
+    {
+      "src": "img/recuerdo22.jpg",
+      "descripcion": "Día de Ramen"
+    },
+    {
+      "src": "img/recuerdo23.jpg",
+      "descripcion": "Armando un lego"
+    },
+    {
+      "src": "img/recuerdo24.jpg",
+      "descripcion": "Volando barriletes"
+    },
+    {
+      "src": "img/recuerdo25.jpg",
+      "descripcion": "Día de desvelada"
+    }
+  ]
+}
