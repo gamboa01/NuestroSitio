@@ -1,0 +1,94 @@
+[
+  {
+    "id": "365_Dias_Contigo",
+    "carpeta": "365_Dias_Contigo",
+    "titulo": "365 Dias Contigo",
+    "tipo": "web",
+    "disponibleDesde": "2026-01-01T00:00:00-06:00"
+  },
+
+      {
+      "nombre": "Año Nuevo 2024",
+      "carpeta": "Año_Nuevo_2024",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Arbolito de Navidad 2024",
+      "carpeta": "Arbolito_Navidad_2024",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Arbolito de Navidad 2025",
+      "carpeta": "Arbolito_Navidad_2025",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Cajita de Flores",
+      "carpeta": "Cajita_Flores",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Día del Cariño Invitación 2024",
+      "carpeta": "Dia_Cariño_Invitacion_2024",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Día del Cariño Invitación 2025",
+      "carpeta": "Dia_Cariño_Invitacion_2025",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Día de la Mujer",
+      "carpeta": "Dia_Mujer",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Itinerario de Escapada",
+      "carpeta": "Itinerario_Escapada",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Mensajes de Ánimo",
+      "carpeta": "Mensajes_Animo",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Motivos Para Amarte",
+      "carpeta": "Motivos_Para_Amarte",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Rosa Preciosa",
+      "carpeta": "Rosa_Preciosa",
+      "tipo": "web",
+      "disponible": true
+    },
+    {
+      "nombre": "Te Amo Cupones",
+      "carpeta": "Te_Amo_Cupones",
+      "tipo": "web",
+      "disponible": true
+    },
+     {
+    "id": "Invitacion_Uñas",
+    "titulo": "Invitacion Uñas",
+    "tipo": "video",
+    "url": "https://youtu.be/VlByQt38wUY?si=vb7dJW8f0tqyinhi"
+  },
+  {
+    "id": "Aniversario_1",
+    "titulo": "Primer Aniversario",
+    "tipo": "video",
+    "url": "https://aniversario.xo.je/index.php"
+  }
+]
