@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Rosa claro como color de fondo */
+}
+
+/* Añade estilos para el formulario de clave */
+#fggggggsdgsdg {
+    text-align: center;
+    margin-top: 50px;
+}
+#jjdjjdjdjdjdjd{
+    margin-top: 10px;
+}
+
+#imagenes img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    height: 400px; 
+}
+
+header {
+    background-color: #e91e63; /* Rosa oscuro para la cabecera */
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Blanco para el contenido principal */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+#motivoDelDia {
+    text-align: center;
+}
+
+#motivoTexto {
+    color: #e91e63; /* Rosa oscuro para el texto del motivo */
+}
+#verNuevamente, #reset{
+    display: none;
+}
+.botones{
+    background-color: #e91e63; /* Rosa oscuro para el botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.botones:disabled {
+    background-color:#E9B3F2  ; /* Gris claro cuando el botón está deshabilitado */
+    cursor: not-allowed;
+}
+
+#pie {
+    text-align: center;
+    padding: 2px;
+    background-color: #e91e63; /* Rosa oscuro para el pie de página */
+    color: white;
+    position:fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/*Corazones*/
