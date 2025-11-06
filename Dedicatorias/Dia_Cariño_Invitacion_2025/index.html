@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ValentinDay</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container text-center">
+        <h1 class="mt-5">¡Encuentra el corazón especial!</h1>
+        <div id="laberinto">
+            <div class="fila">
+                <div class="celda" data-id="1"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="2"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="3"><i class="bi bi-arrow-through-heart-fill"></i></div>
+            </div>
+            <div class="fila">
+                <div class="celda" data-id="4"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="5"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="6"><i class="bi bi-arrow-through-heart-fill"></i></div>
+            </div>
+            <div class="fila">
+                <div class="celda" data-id="7"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="8"><i class="bi bi-arrow-through-heart-fill"></i></div>
+                <div class="celda" data-id="9"><i class="bi bi-arrow-through-heart-fill"></i></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Diálogo emergente -->
+    <div id="dialogo" class="dialogo">
+        <div class="dialogo-contenido">
+            <h2 id="dialogo-mensaje"></h2>
+            <h6 id="dialogo-extra"></h6>
+            <button class="btn btn-primary mt-3" onclick="cerrarDialogo()">Cerrar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

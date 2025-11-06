@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+body {
+    background-color: #ffe6f2; /* Fondo rosado claro */
+    font-family: "Darumadrop One", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+}
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Limita el ancho máximo */
+    padding: 20px;
+}
+
+#laberinto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.fila {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.celda {
+    width: 30%; /* Ancho relativo al contenedor */
+    aspect-ratio: 1; /* Mantiene la proporción cuadrada */
+    border: 1px solid #ff99cc;
+    background-color: #ffccdd;
+    margin: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 300%;
+    transition: background-color 0.3s;
+}
+
+.celda i {
+    color: red; /* Color rojo para el ícono */
+}
+
+.celda.desactivada {
+    background-color: #ff99cc; /* Cambia el color al ser presionado */
+    cursor: not-allowed;
+}
+
+.celda.desactivada i {
+    color: #cc0066; /* Cambia el color del ícono al ser presionado */
+}
+
+.dialogo {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 2px solid #ff3366;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.dialogo-contenido {
+    text-align: center;
+}
+
+.dialogo-contenido h2 {
+    color: #ff3366;
+}
