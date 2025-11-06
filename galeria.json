@@ -1,11 +1,11 @@
 {
   "imagenes": [
     {
-      "src": "img/recuerdo01.jpg",
+      "src": "img/Recuerdo01.jpg",
       "descripcion": "El inicio de todo"
     },
     {
-      "src": "img/recuerdo02.jpg",
+      "src": "img/Recuerdo02.jpg",
       "descripcion": "Nuestro primer desayuno juntos"
     },
     {
@@ -102,3 +102,4 @@
     }
   ]
 }
+
