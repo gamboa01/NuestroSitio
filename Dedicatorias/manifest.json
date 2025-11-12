@@ -23,7 +23,8 @@
       "nombre": "Arbolito de Navidad 2025",
       "carpeta": "Arbolito_Navidad_2025",
       "tipo": "web",
-      "disponible": true
+      "disponible": true,
+      "disponibleDesde": "2025-12-25T00:00:00-06:00"
     },
     {
       "nombre": "Cajita de Flores",
@@ -91,4 +92,5 @@
     "tipo": "video",
     "url": "https://aniversario.xo.je/index.php"
   }
+
 ]
