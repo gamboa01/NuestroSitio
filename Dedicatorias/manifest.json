@@ -92,5 +92,12 @@
     "tipo": "video",
     "url": "https://aniversario.xo.je/index.php"
   }
-
+,
+  {
+      "nombre": "Aniversario_2",
+      "carpeta": "Segundo Aniversario",
+      "tipo": "web",
+      "disponible": true
+  }
 ]
+
