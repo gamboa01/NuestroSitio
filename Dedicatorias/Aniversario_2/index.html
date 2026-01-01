@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>2 Años Contigo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fuentes -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="stars"></div>
+    <div class="floating-particles" id="particles"></div>
+
+    <header>
+        <div class="header-inner">
+            <div class="brand">
+                <div class="brand-mark"></div>
+                <div class="brand-text">
+                    <span>Nuestro aniversario</span>
+                    <span>2 años contigo</span>
+                </div>
+            </div>
+            <nav>
+                <a href="#timeline">Nuestra historia</a>
+                <a href="#reasons">Razones</a>
+                <a href="#letter">Carta</a>
+                <a href="#ending">Siempre tú</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO -->
+        <section class="hero" id="inicio">
+            <div class="hero-main">
+                <div class="tag">
+                    <span class="tag-dot"></span>
+                    <span>Feliz aniversario</span>
+                </div>
+                <h1 class="title-xl">
+                    Dos años a tu lado,<br />
+                    y sigo eligiéndote
+                    <span class="accent">todos los días.</span>
+                </h1>
+                <p class="subtitle">
+                    Hoy recordarte parte de todo lo que hemos vivido
+                    y lo mucho que quiero seguir construyendo una vida a tu lado.
+                </p>
+
+                <div class="hero-actions">
+                    <button class="btn" data-scroll="#timeline">
+                        Ver nuestra historia
+                    </button>
+                    <button class="btn btn-secondary" data-scroll="#letter">
+                        Leer mi carta
+                    </button>
+                </div>
+
+                <div class="hero-meta">
+                    <span><strong>2 años</strong> de historias, abrazos, peleas, pero sobre todo aprendizaje.</span>
+                    <span><strong>Un futuro</strong> que quiero seguir construyendo contigo.</span>
+                </div>
+            </div>
+
+            <aside class="hero-card">
+                <div class="hero-card-inner">
+                    <div>
+                        <p class="hero-card-title">Resumen de nosotros</p>
+                        <p class="hero-card-text" id="hero-summary">
+                            Acá quiero definirnos como dos personas que no son perfectas, pero que se eligen cada día.
+                            Dos locos enamorados, que cuando están juntos, el mundo se siente un poco mejor.
+                        </p>
+                        <br>
+                        <p class="hero-count" id="days-count"></p>
+                    </div>
+                    <div class="hero-badges">
+                        <span id="badge-days"></span>
+                        <span id="badge-months"></span>
+                        <span id="badge-years"></span>
+                    </div>
+                </div>
+                <div class="hero-year">2 años juntos</div>
+            </aside>
+        </section>
+
+        <!-- TIMELINE -->
+        <section id="timeline">
+            <div class="section-header">
+                <span class="tag">
+                    <span class="tag-dot"></span>
+                    <span>Nuestra línea de tiempo</span>
+                </span>
+                <h2>Momentos que guardo en el corazón</h2>
+                <p>
+                    No están todos los momentos, porque son muchos jaja pero sí algunos que marcaron nuestra historia. Haz clic en cada
+                    capítulo.
+                </p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-list" id="timeline-list">
+                    <!-- Se llena con JS -->
+                </div>
+                <article class="timeline-detail" id="timeline-detail">
+                    <h3>Elige un momento</h3>
+                    <p>
+                        A la izquierda verás algunos capítulos de nuestra historia. Toca uno para leerlo.
+                    </p>
+                    <p class="note">
+                        TE AMO
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- RAZONES -->
+        <section id="reasons">
+            <div class="section-header">
+                <span class="tag">
+                    <span class="tag-dot"></span>
+                    <span>Razones</span>
+                </span>
+                <h2>Algunas de las razones por las que te amo</h2>
+                <p>
+                    Te dejo aquí algunas de las razones por las
+                    que te vuelvo a
+                    elegir cada día.
+                </p>
+            </div>
+
+            <div class="reasons-grid">
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Tu esencia</h3>
+                            <p class="reason-text">
+                                Amo la forma en la que eres, auténtica, transparente y sincera. Tienes algo que
+                                hace que en cada lugar que estamos juntos
+                                se sienta más bonito.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Lo que veo en ti</h3>
+                            <p class="reason-text">
+                                Veo a una mujer fuerte, valiente, que sigue adelante aunque las cosas se pongan
+                                difíciles.
+                                Y quiero acompañarte en cada paso que des, cada meta que tengas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Tu forma de cuidar</h3>
+                            <p class="reason-text">
+                                Me hace feliz cómo te preocupas por mí, por lo que siento, por lo que
+                                pienso.
+                                Tu forma de cuidar es uno de mis lugares favoritos del mundo.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Mi lugar seguro</h3>
+                            <p class="reason-text">
+                                En tus abrazos encontré algo que no sabía que necesitaba: un lugar al que puedo volver
+                                cuando todo
+                                se siente mal, y saber que ahí estoy bien.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Cómo me ves</h3>
+                            <p class="reason-text">
+                                Gracias por creer en mí incluso cuando yo no lo hago. Por ser mi mayor apoyo,
+                                quiero caminar contigo a mi lado en todo momento.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Nuestro equipo</h3>
+                            <p class="reason-text">
+                                Me encanta que, pase lo que pase, buscamos solucionarlo juntos. No eres solo mi pareja,
+                                eres mi equipo,
+                                mi compañera, mi mejor amiga y mi futura esposa.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Los momentos simples</h3>
+                            <p class="reason-text">
+                                Valoro cada risa, cada chiste entre nosotros, cada chismesito, cada tarde tranquila. Contigo, lo simple se
+                                es de lo mejor.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Nuestro día a día</h3>
+                            <p class="reason-text">
+                                No necesito grandes cosas, me basta con compartir contigo mi tiempo, un café, una plática y cuando se puede,
+                                dormir contigo, todo esto que ya se siente como mi hogar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Lo que estamos construyendo</h3>
+                            <p class="reason-text">
+                                Me ilusiona pensar en lo que viene. No por lo perfecto, sino porque quiero seguir
+                                aprendiendo,
+                                creciendo y soñando a tu lado.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Nuestro futuro</h3>
+                            <p class="reason-text">
+                                Cuando pienso en mi futuro, inevitablemente te imagino ahí. Y eso me da paz, ilusión y
+                                ganas de
+                                seguir dando lo mejor de mí.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reason-card">
+                    <div class="reason-inner">
+                        <div class="reason-face">
+                            <h3 class="reason-title">Porque eres tú</h3>
+                            <p class="reason-text">
+                                Simplemente eres tú. Tú y todo lo que
+                                siento
+                                cuando estoy contigo.
+                            </p>
+                        </div>
+                        <div class="reason-face back">
+                            <h3 class="reason-title">Mi decisión</h3>
+                            <p class="reason-text">
+                                Y si tuviera que elegir de nuevo, te elegiría otra vez. Con todo lo que somos, con lo
+                                bueno, lo difícil
+                                y lo que aún nos falta por vivir.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CARTA -->
+        <section id="letter">
+            <div class="section-header" style="align-items:center; text-align:center; margin-bottom:18px;">
+                <span class="tag">
+                    <span class="tag-dot"></span>
+                    <span>Carta</span>
+                </span>
+                <h2>Lo que siento por ti</h2>
+                <p style="max-width:650px;">
+                    Quise escribirte algo que vaya más allá de un mensaje rápido. Puedes leerlo despacio, a tu ritmo.
+                    Es mi forma de recordarte cuánto significas para mí.
+                </p>
+            </div>
+
+            <div class="letter">
+                <p class="letter-header">Para: Mi amor</p>
+                <div class="letter-body" id="letter-text"></div>
+                <div class="letter-controls">
+                    <button class="btn btn-secondary" id="letter-replay">Volver a leerla</button>
+                </div>
+                <p class="letter-footer">Con amor, Guillermo Gamboa, quien se siente afortunado de compartir estos 2 años contigo.</p>
+            </div>
+        </section>
+
+        <!-- FINAL -->
+        <section id="ending">
+            <div class="section-header">
+                <span class="tag">
+                    <span class="tag-dot"></span>
+                    <span>Siempre tú</span>
+                </span>
+            </div>
+
+            <div class="ending">
+                <div class="ending-main">
+                    <h2 class="title-xl" style="font-size:1.6rem; margin-bottom:12px;">
+                        Pase lo que pase, quiero seguir eligiéndote.
+                    </h2>
+                    <p>
+                        Este es mi manera de decirte que valoro todo lo que
+                        somos,
+                        lo que vivimos y lo que aún no llega, pero espero que llegue contigo.
+                    </p>
+                </div>
+
+                <aside class="ending-card">
+                    <span class="ending-label">Frases para ti</span>
+                    <p class="ending-quote" id="ending-quote">
+                        Toca el botón de abajo.
+                    </p>
+                    <div
+                        style="margin-top:auto; display:flex; justify-content:space-between; align-items:center; gap:8px;">
+                        <button class="btn btn-secondary" id="quote-btn"
+                            style="padding-inline:16px; font-size:0.85rem;">
+                            Quiero leer otra
+                        </button>
+                        <span style="font-size:0.78rem; color:var(--texto-suave);">
+                            Frases para ti.
+                        </span>
+                    </div>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="m-0 contenido fs-5">&copy; Guillermo Gamboa</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
